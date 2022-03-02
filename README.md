@@ -34,34 +34,19 @@ yuvarlanması ile bulunan sayıdan daha az ve oyuncu sayısının 1 eksiğinden 
 İsviçre Sistemi’nin genel kuralları aşağıdaki şekildedir:
 - Elenme yoktur, tüm oyuncular, tüm turlarda oynarlar.
 - İki oyuncu birbirleriyle sadece bir defa oynayabilir.
-- Birbirleriyle eşleştirilen iki oyuncu, eşit puanlı veya aralarındaki puan farkı olabildiğince
-az olmalıdır.
-- Oyuncu sayısı tek ise, tur öncesi yapılan sıralamada en alttaki oyuncu o turda eşleştirilmez,
-tur atlar (o turu BYE geçer), rengi yoktur ve 1 puan alır.
-- İster rakibi gelmediği için, ister tur atladığı için daha önceki turlarda oynamadan puan
-almış bir oyuncu, o turda tur atlatılamaz.
-- Olanaklı ise, oyuncular bir önceki turdaki renklerinin karşıt rengini alırlar. Olanaklı ise,
-oyuncular siyah ve beyaz renkleri eşit sayıda alırlar.
-- Hiç bir oyuncu arka arkaya üç kez aynı rengi alamaz. Bir oyuncu bir rengi diğerinden en
-çok 2 kez fazla alabilir.
+- Birbirleriyle eşleştirilen iki oyuncu, eşit puanlı veya aralarındaki puan farkı olabildiğince az olmalıdır.
+- Oyuncu sayısı tek ise, tur öncesi yapılan sıralamada en alttaki oyuncu o turda eşleştirilmez, tur atlar (o turu BYE geçer), rengi yoktur ve 1 puan alır.
+- İster rakibi gelmediği için, ister tur atladığı için daha önceki turlarda oynamadan puan almış bir oyuncu, o turda tur atlatılamaz.
+- Olanaklı ise, oyuncular bir önceki turdaki renklerinin karşıt rengini alırlar. Olanaklı ise, oyuncular siyah ve beyaz renkleri eşit sayıda alırlar.
+- Hiç bir oyuncu arka arkaya üç kez aynı rengi alamaz. Bir oyuncu bir rengi diğerinden en çok 2 kez fazla alabilir.
 - Tur atlamalar renk hesabında dikkate alınmaz.
 
-Her tur öncesinde, oyuncular daha önce belirtilen şekilde sıralanır ve ilk oyuncudan başlanarak
-sırayla, eşleştirilmemiş her oyuncuya uygun bir rakip bulunarak masalara yerleştirilir (masa
-numaraları (MNo) 1’den başlar). Bunun için, yukarıdaki genel kurallar çerçevesinde, aşağıdaki
-yöntem izlenir:
-1. Rakip aranan oyuncuyla aynı puana sahip oyuncu grubu içerisinde aşağıdaki öncelik
-sırasına göre rakip ara:
-1.1. Rakip aranan oyuncuya bir önceki turda aldığı rengin karşıt rengi verilerek, önceki turda
-aldığı rengin karşıt rengini alacak, sıralamada en yakın oyuncu
-1.2. Rakip aranan oyuncuya bir önceki turda aldığı rengin karşıt rengi verilerek, önceki turda
-aldığı renkle aynı rengi alacak (renk kurallarına aykırı değilse), sıralamada en yakın
-oyuncu
-1.3. Rakip aranan oyuncuya bir önceki turda aldığı renkle aynı renk verilerek (renk kurallarına
-aykırı değilse), önceki turda aldığı rengin karşıt rengini alacak, sıralamada en yakın
-oyuncu
-2. Uygun bir rakip bulunamadıysa, bir alt puana sahip oyuncu grubu üzerinde 1.1, 1.2 ve 1.3
-adımlarını sırayla tekrarla
+Her tur öncesinde, oyuncular daha önce belirtilen şekilde sıralanır ve ilk oyuncudan başlanarak sırayla, eşleştirilmemiş her oyuncuya uygun bir rakip bulunarak masalara yerleştirilir (masa numaraları (MNo) 1’den başlar). Bunun için, yukarıdaki genel kurallar çerçevesinde, aşağıdaki yöntem izlenir:
+1. Rakip aranan oyuncuyla aynı puana sahip oyuncu grubu içerisinde aşağıdaki öncelik sırasına göre rakip ara:
+1.1. Rakip aranan oyuncuya bir önceki turda aldığı rengin karşıt rengi verilerek, önceki turda aldığı rengin karşıt rengini alacak, sıralamada en yakın oyuncu
+1.2. Rakip aranan oyuncuya bir önceki turda aldığı rengin karşıt rengi verilerek, önceki turda aldığı renkle aynı rengi alacak (renk kurallarına aykırı değilse), sıralamada en yakın oyuncu
+1.3. Rakip aranan oyuncuya bir önceki turda aldığı renkle aynı renk verilerek (renk kurallarına aykırı değilse), önceki turda aldığı rengin karşıt rengini alacak, sıralamada en yakın oyuncu
+2. Uygun bir rakip bulunamadıysa, bir alt puana sahip oyuncu grubu üzerinde 1.1, 1.2 ve 1.3 adımlarını sırayla tekrarla
 3. Uygun bir rakip bulununcaya kadar 2. adımı tekrarla
 
 Bütün eşleştirmeler tamamlandıktan sonra, o turdaki eşleştirme listesi aşağıdaki şekilde
