@@ -24,5 +24,5 @@ oluşturulur ve bu listeye göre, eşleştirmelerde kullanılmak üzere oyuncula
 birer başlangıç sıra numarası (BSNo) verilir. Oluşturulan başlangıç sıralama listesi aşağıdaki
 şekilde görüntülenir:
 
-BSNo LNo Ad-Soyad ELO UKD
+BSNo LNo   Ad-Soyad     ELO  UKD
 ---- ----- ------------ ---- ----
