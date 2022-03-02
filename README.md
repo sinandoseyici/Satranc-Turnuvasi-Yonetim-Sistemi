@@ -26,3 +26,8 @@ birer başlangıç sıra numarası (BSNo) verilir. Oluşturulan başlangıç sı
 
 BSNo LNo   Ad-Soyad     ELO  UKD
 ---- ----- ------------ ---- ----
+
+Daha sonra, turnuvadaki tur sayısı ve başlangıç sıralamasına göre ilk oyuncunun ilk turdaki rengi
+(b/s) programa girilir. İlk turda, BSNo’su tek olanlar bu rengi, çift olanlar diğer rengi alır. Tur
+sayısı; oyuncu sayısının 2 tabanına göre logaritmasının, yukarıya doğru en yakın tamsayıya
+yuvarlanması ile bulunan sayıdan daha az ve oyuncu sayısının 1 eksiğinden daha çok olamaz
