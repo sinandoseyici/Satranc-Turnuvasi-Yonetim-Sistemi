@@ -43,11 +43,11 @@ yuvarlanması ile bulunan sayıdan daha az ve oyuncu sayısının 1 eksiğinden 
 
 Her tur öncesinde, oyuncular daha önce belirtilen şekilde sıralanır ve ilk oyuncudan başlanarak sırayla, eşleştirilmemiş her oyuncuya uygun bir rakip bulunarak masalara yerleştirilir (masa numaraları (MNo) 1’den başlar). Bunun için, yukarıdaki genel kurallar çerçevesinde, aşağıdaki yöntem izlenir:
 1. Rakip aranan oyuncuyla aynı puana sahip oyuncu grubu içerisinde aşağıdaki öncelik sırasına göre rakip ara:
-1.1. Rakip aranan oyuncuya bir önceki turda aldığı rengin karşıt rengi verilerek, önceki turda aldığı rengin karşıt rengini alacak, sıralamada en yakın oyuncu
-1.2. Rakip aranan oyuncuya bir önceki turda aldığı rengin karşıt rengi verilerek, önceki turda aldığı renkle aynı rengi alacak (renk kurallarına aykırı değilse), sıralamada en yakın oyuncu
-1.3. Rakip aranan oyuncuya bir önceki turda aldığı renkle aynı renk verilerek (renk kurallarına aykırı değilse), önceki turda aldığı rengin karşıt rengini alacak, sıralamada en yakın oyuncu
-2. Uygun bir rakip bulunamadıysa, bir alt puana sahip oyuncu grubu üzerinde 1.1, 1.2 ve 1.3 adımlarını sırayla tekrarla
-3. Uygun bir rakip bulununcaya kadar 2. adımı tekrarla
+2. Rakip aranan oyuncuya bir önceki turda aldığı rengin karşıt rengi verilerek, önceki turda aldığı rengin karşıt rengini alacak, sıralamada en yakın oyuncu
+3. Rakip aranan oyuncuya bir önceki turda aldığı rengin karşıt rengi verilerek, önceki turda aldığı renkle aynı rengi alacak (renk kurallarına aykırı değilse), sıralamada en yakın oyuncu
+4. Rakip aranan oyuncuya bir önceki turda aldığı renkle aynı renk verilerek (renk kurallarına aykırı değilse), önceki turda aldığı rengin karşıt rengini alacak, sıralamada en yakın oyuncu
+5. Uygun bir rakip bulunamadıysa, bir alt puana sahip oyuncu grubu üzerinde 1.1, 1.2 ve 1.3 adımlarını sırayla tekrarla
+6. Uygun bir rakip bulununcaya kadar 2. adımı tekrarla
 
 Bütün eşleştirmeler tamamlandıktan sonra, o turdaki eşleştirme listesi aşağıdaki şekilde
 görüntülenir (Tur atlayan oyuncu varsa, en sonda belirtilir ve karşısına BYE yazılır):
