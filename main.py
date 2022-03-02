@@ -130,8 +130,7 @@ def listeyi_yazdir(liste):
         print(format(liste[i][1], ">6"), end=" ")
         print(format(liste[i][2], ">19"), end=" ")
         print(format(liste[i][3], ">6"), end=" ")
-        print(format(liste[i][4], ">5"), end=" ")
-        print(format(liste[i][5], ">5"))
+        print(format(liste[i][4], ">5"))
 
 
 def eslestirme_olustur(baslangic_renk,beyaz_liste,siyah_liste,oyuncu_liste2):
@@ -163,7 +162,6 @@ def main():
         oyuncu_say_kontrol+=1
         print("Lütfen lisans numaranızı giriniz: ", end="")
         LNo = int(input())
-        print(Lno_kontrol)
         for element in Lno_kontrol:
             while(element == LNo):
                 LNo = int(input("Zaten olan bir lisans numarası girdiniz! Lütfen tekrar giriniz: "))
@@ -190,7 +188,7 @@ def main():
     oynanan_tur_say = 1
 
     for_tur_say = tur_say
-
+    print()
     while (tur_say > 0):
         MNo = 1
         print("            Beyazlar                  Siyahlar\n")
@@ -241,8 +239,6 @@ def main():
 
         oynanan_masa_no = 1
         for i in range(for_tur_say-1):
-            berabere = False
-
             print("\n", oynanan_tur_say, ". turda oynanan", oynanan_masa_no,
                   ". masa numarasındaki maçın sonucunu giriniz(0-5): ")
             durum = int(input())
@@ -260,9 +256,9 @@ def main():
                 beyaz_liste[i][5] += 1
             elif durum == 4:
                 siyah_liste[i][5] += 1
-            elif durum == 5:
+            # elif durum == 5:
                 # draw.
-                berabere = True
+
         oyuncu_liste2 = listeyi_birlestir(beyaz_liste, siyah_liste, oyuncu_liste2)
         beyaz_liste, siyah_liste = rakip_ara(beyaz_liste, siyah_liste, oyuncu_liste2)
         listeyi_yazdir(oyuncu_liste2)
