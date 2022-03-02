@@ -65,8 +65,11 @@ Daha sonra bu turda oynanan her maçın sonucu, aşağıdaki sayılar (0-5) ile 
 
 # Outputs:
 
+### Girilen veriler için önceliklere göre sıralanmış oyuncu eşleştirme listesinin oluşturulacağı ve masa numaralarının atanacağı tüm oyuncular:
 ![image](https://user-images.githubusercontent.com/57726183/156457255-cd11c748-6a20-489a-adfa-2d15e7ad5cce.png)
+### İlk eşleştirme listesi:
 ![image](https://user-images.githubusercontent.com/57726183/156457304-c0921f3a-1f1e-46f1-a57f-c2941f00978d.png)
+### Her maç sonucu için yeni eşleştirme listesi ve puanlar:
 ![image](https://user-images.githubusercontent.com/57726183/156457348-76829264-0682-4290-834d-698724f13d14.png)
 ![image](https://user-images.githubusercontent.com/57726183/156457379-4bea9cea-9b4d-4815-a186-1328aff00e1a.png)
 ![image](https://user-images.githubusercontent.com/57726183/156457405-c429a04f-c4d0-4523-b7d5-df278e6e2327.png)
