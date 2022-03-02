@@ -25,9 +25,24 @@ birer başlangıç sıra numarası (BSNo) verilir. Oluşturulan başlangıç sı
 şekilde görüntülenir:
 
 BSNo LNo   Ad-Soyad     ELO  UKD
----- ----- ------------ ---- ----
+**** ***   ********     ***  ***
 
 Daha sonra, turnuvadaki tur sayısı ve başlangıç sıralamasına göre ilk oyuncunun ilk turdaki rengi
 (b/s) programa girilir. İlk turda, BSNo’su tek olanlar bu rengi, çift olanlar diğer rengi alır. Tur
 sayısı; oyuncu sayısının 2 tabanına göre logaritmasının, yukarıya doğru en yakın tamsayıya
-yuvarlanması ile bulunan sayıdan daha az ve oyuncu sayısının 1 eksiğinden daha çok olamaz
+yuvarlanması ile bulunan sayıdan daha az ve oyuncu sayısının 1 eksiğinden daha çok olamaz.
+
+İsviçre Sistemi’nin genel kuralları aşağıdaki şekildedir:
+- Elenme yoktur, tüm oyuncular, tüm turlarda oynarlar.
+- İki oyuncu birbirleriyle sadece bir defa oynayabilir.
+- Birbirleriyle eşleştirilen iki oyuncu, eşit puanlı veya aralarındaki puan farkı olabildiğince
+az olmalıdır.
+- Oyuncu sayısı tek ise, tur öncesi yapılan sıralamada en alttaki oyuncu o turda eşleştirilmez,
+tur atlar (o turu BYE geçer), rengi yoktur ve 1 puan alır.
+- İster rakibi gelmediği için, ister tur atladığı için daha önceki turlarda oynamadan puan
+almış bir oyuncu, o turda tur atlatılamaz.
+- Olanaklı ise, oyuncular bir önceki turdaki renklerinin karşıt rengini alırlar. Olanaklı ise,
+oyuncular siyah ve beyaz renkleri eşit sayıda alırlar.
+- Hiç bir oyuncu arka arkaya üç kez aynı rengi alamaz. Bir oyuncu bir rengi diğerinden en
+çok 2 kez fazla alabilir.
+- Tur atlamalar renk hesabında dikkate alınmaz.
