@@ -24,8 +24,8 @@ oluşturulur ve bu listeye göre, eşleştirmelerde kullanılmak üzere oyuncula
 birer başlangıç sıra numarası (BSNo) verilir. Oluşturulan başlangıç sıralama listesi aşağıdaki
 şekilde görüntülenir:
 
-BSNo LNo   Ad-Soyad     ELO  UKD
-**** ***   ********     ***  ***
+BSNo   LNo   Ad-Soyad      ELO   UKD
+xxxx xxxxx   XXXXXXXXXXX  xxxx  xxxx   
 
 Daha sonra, turnuvadaki tur sayısı ve başlangıç sıralamasına göre ilk oyuncunun ilk turdaki rengi
 (b/s) programa girilir. İlk turda, BSNo’su tek olanlar bu rengi, çift olanlar diğer rengi alır. Tur
