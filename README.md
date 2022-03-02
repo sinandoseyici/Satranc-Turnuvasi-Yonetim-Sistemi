@@ -18,3 +18,11 @@ bahsedilecektir) 0’dır. Oyuncular, başlangıçta ve her tur öncesinde eşle
 - 3. UKD (büyükten küçüğe doğru)
 - 4. Ad-soyad (Türkçe ile uyumlu alfabetik sıra)
 - 5. LNo (küçükten büyüğe doğru)
+
+Başlangıçta, tüm oyuncular yukarıda belirtildiği şekilde sıralanarak bir başlangıç sıralama listesi
+oluşturulur ve bu listeye göre, eşleştirmelerde kullanılmak üzere oyunculara 1’den başlayarak
+birer başlangıç sıra numarası (BSNo) verilir. Oluşturulan başlangıç sıralama listesi aşağıdaki
+şekilde görüntülenir:
+
+BSNo LNo Ad-Soyad ELO UKD
+---- ----- ------------ ---- ----
