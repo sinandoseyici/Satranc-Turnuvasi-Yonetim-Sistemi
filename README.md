@@ -25,6 +25,7 @@ birer başlangıç sıra numarası (BSNo) verilir. Oluşturulan başlangıç sı
 şekilde görüntülenir:
 
 BSNo   LNo   Ad-Soyad      ELO   UKD
+
 xxxx xxxxx   XXXXXXXXXXX  xxxx  xxxx   
 
 Daha sonra, turnuvadaki tur sayısı ve başlangıç sıralamasına göre ilk oyuncunun ilk turdaki rengi
